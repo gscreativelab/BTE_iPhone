@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="5064" systemVersion="13E28" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="EventAttendees" syncable="YES">
+        <attribute name="eventAttendees" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventDetails" syncable="YES">
+        <attribute name="eventDetails" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventImageDetails" syncable="YES">
+        <attribute name="imageDetails" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="EventPosts" syncable="YES">
+        <attribute name="eventPosts" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventRejections" syncable="YES">
+        <attribute name="eventRejections" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EventTentatives" syncable="YES">
+        <attribute name="eventTentatives" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GroupEvents" syncable="YES">
+        <attribute name="events" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="GroupMembers" syncable="YES">
+        <attribute name="groupMembers" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="MemberDetails" syncable="YES">
+        <attribute name="members" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="RecentFeeds" representedClassName="RecentFeeds" syncable="YES">
+        <attribute name="response" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <entity name="RSVPStatus" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EventAttendees" positionX="18" positionY="72" width="128" height="75"/>
+        <element name="EventDetails" positionX="36" positionY="99" width="128" height="75"/>
+        <element name="EventImageDetails" positionX="0" positionY="54" width="128" height="60"/>
+        <element name="EventPosts" positionX="-9" positionY="54" width="128" height="75"/>
+        <element name="EventRejections" positionX="0" positionY="63" width="128" height="73"/>
+        <element name="EventTentatives" positionX="9" positionY="72" width="128" height="75"/>
+        <element name="GroupEvents" positionX="-18" positionY="36" width="128" height="60"/>
+        <element name="GroupMembers" positionX="-63" positionY="-18" width="128" height="58"/>
+        <element name="MemberDetails" positionX="-36" positionY="18" width="128" height="60"/>
+        <element name="RecentFeeds" positionX="-54" positionY="9" width="128" height="60"/>
+        <element name="RSVPStatus" positionX="18" positionY="81" width="128" height="73"/>
+    </elements>
+</model>
