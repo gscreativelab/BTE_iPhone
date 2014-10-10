@@ -29,18 +29,18 @@
 			<string>com.jnj.ascm.LoginView</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>App ID here</string>
+				<string>fb1512119682333883</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>FacebookAppID</key>
-	<string>App ID here</string>
+	<string>1512119682333883</string>
 	<key>FacebookDisplayName</key>
 	<string>BTE</string>
 	<key>FacebookGroupID</key>
-	<string>Group ID here</string>
+	<string>505668282896958</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIAppFonts</key>
